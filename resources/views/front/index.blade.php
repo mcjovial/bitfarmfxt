@@ -7,7 +7,7 @@
     <title> Bitfarmfxt investment firm </title>
 
     <!--<link rel="stylesheet" type="text/css" href="/stylesheet/vid.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="/stylesheet/theme.css">-->
+    {{-- <link rel="stylesheet" type="text/css" href="{{url('/')}}/asset/clone/stylesheet/theme.css"> --}}
     <link rel="stylesheet" type="text/css" href="{{url('/')}}/asset/clone/stylesheet/home.css">
 
     <main>
@@ -42,7 +42,6 @@
                                     <div>
                                         <h1 class="wel-h3 text-right coloured" id="wel-h3-sec">More investment options. <br> More opportunities to grow.</h1>
                                     </div>
-                                    {{-- <h1 id="wel-h1-sec">More investment options. <br> More opportunities to grow.</h1> --}}
                                     <p id="wel-para-sec">With over 5 years of experience we've developed unique strategies to offer you unparalleled trades. </p>
                                     <p>Join our Platform today to get started</p>
                                     <div id="wel-btn-sec">
@@ -62,14 +61,161 @@
                     <span class="ti-angle-right"></span>
                 </div>
             </div>
+            <div class="tradingview-widget-container" style="width: 100%; height: 72px;">
+                <iframe scrolling="no" allowtransparency="true" frameborder="0"
+                    src="https://s.tradingview.com/embed-widget/tickers/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22FOREXCOM%3ASPXUSD%22%2C%22title%22%3A%22S%26P%20500%22%7D%2C%7B%22proName%22%3A%22FOREXCOM%3ANSXUSD%22%2C%22title%22%3A%22Nasdaq%20100%22%7D%2C%7B%22proName%22%3A%22FX_IDC%3AEURUSD%22%2C%22title%22%3A%22EUR%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22BTC%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3AETHUSD%22%2C%22title%22%3A%22ETH%2FUSD%22%7D%5D%2C%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22width%22%3A%22100%25%22%2C%22height%22%3A72%2C%22utm_source%22%3A%22ulscapital.com%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22tickers%22%7D"
+                    style="box-sizing: border-box; height: 72px; width: 100%;"></iframe>
+        
+        
+                <style>
+                    .tradingview-widget-copyright {
+                        font-size: 13px !important;
+                        line-height: 32px !important;
+                        text-align: center !important;
+                        vertical-align: middle !important;
+                        font-family: 'Trebuchet MS', Arial, sans-serif !important;
+                        color: #9db2bd !important;
+                    }
+        
+                    .tradingview-widget-copyright .blue-text {
+                        color: #2196f3 !important;
+                    }
+        
+                    .tradingview-widget-copyright a {
+                        text-decoration: none !important;
+                        color: #9db2bd !important;
+                    }
+        
+                    .tradingview-widget-copyright a:visited {
+                        color: #9db2bd !important;
+                    }
+        
+                    .tradingview-widget-copyright a:hover .blue-text {
+                        color: #38acdb !important;
+                    }
+        
+                    .tradingview-widget-copyright a:active .blue-text {
+                        color: #299dcd !important;
+                    }
+        
+                    .tradingview-widget-copyright a:visited .blue-text {
+                        color: #2196f3 !important;
+                    }
+                </style>
+            </div>
         </section>
 
         <!--cover section slider end -->
 
         <!--event info -->
+        {{-- <section class="t-center" style="padding: 0; overflow: hidden;"> --}}
+
+        {{-- </section> --}}
+        
+        
+        
+        <div class="uk-section" data-animate="fadeIn">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="uk-width-1-1">
+                        <div class="uk-card uk-card-secondary uk-background-center-right uk-background-contain uk-background-image@m"
+                            style="background-image: url({{url('/')}}/asset/nova/site-images/_87824397_1024final_2a.jpg);">
+                            <!-- img/monee-content-image7.jpg -->
+                            <div class="uk-card-body">
+                                <div class="uk-grid">
+                                    <div class="uk-width-1-2@m uk-margin-small-left">
+                                        <h2 class="uk-margin-remove-bottom" style="text-transform: uppercase;     font-size: 23px;">Professional Cryptocurrency traders and analysts</h2>
+                                        <p class="uk-margin-small-top">Bitfarmfxt Investments is an investment services company. We offer our investors access to high-growth investment opportunities in the Bitcoin markets.<br>
+                                            Our professional team will take charge of trading and mining management. Your investment profit is secured.
+                                        </p> <a
+                                            class="uk-button uk-button-primary uk-border-rounded" href="{{route('about')}}">More Insights</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="uk-section" data-animate="fadeIn">
+            <div class="uk-container">
+            <div class="uk-grid">
+            <div class="uk-width-1-1 in-wave-16">
+                <div class="in-margin-medium-top@s">
+                    <div class="uk-grid" data-uk-grid="">
+                        <div class="uk-width-expand@s uk-width-2-5@m uk-card-media-right uk-cover-container uk-first-column">
+                            <img class="uk-width-1-1 uk-margin-remove-bottom" src="{{url('/')}}/asset/nova/levo.jpg" alt="Bitfarmfxt Investments">
+                        </div>
+                        <div class="uk-width-1-2@s uk-width-expand@m uk-flex uk-flex-middle">
+                            <div class="">
+                                <h1 class="uk-margin-top uk-margin-remove-bottom" style="text-transform: uppercase; font-size: 22px">Trusted by more than 45 thousand cryptocurrecny investors around the world.</h1>
+                                <hr>
+                                <h4 class="uk-margin-remove-top uk-margin-remove-bottom">Fully regulated</h4>
+                                <p class="uk-margin-small-top uk-margin-bottom">We adhere to the strictest regulatory
+                                    standards, and are fully licensed and regulated across Europe, the Middle East and Asia.</p>
+                                <h4 class="uk-margin-remove-bottom">Multi-award winner</h4>
+                                <p class="uk-margin-small-top uk-margin-bottom">We’ve been consistently recognised by our industry
+                                    and have won the highest accolades for our products, platform and investment services.</p>
+                                <hr class="">
+                                <div class="uk-child-width-1-3@m uk-text-center uk-visible@m uk-grid" data-uk-grid="">
+                                    <div class="uk-first-column">
+                                        <img src="{{url('/')}}/asset/nova/img/in-wave-award.svg" alt="wave-award">
+                                        <h6 class="uk-margin-small-top uk-margin-remove-bottom">Most Reliable International Crypto Trading Platform</h6>
+                                        <p class="uk-text-small uk-margin-remove-top">BTC TradeON Summit 2017</p>
+                                    </div>
+                                    <div>
+                                        <img src="{{url('/')}}/asset/nova/img/in-wave-award.svg" alt="wave-award">
+                                        <h6 class="uk-margin-small-top uk-margin-remove-bottom">Best Cryptocurrency Investments and Brokerage Platform</h6>
+                                        <p class="uk-text-small uk-margin-remove-top">BTC CIS Awards EXPO 2020</p>
+                                    </div>
+                                    <div>
+                                        <img src="{{url('/')}}/asset/nova/img/in-wave-award.svg" alt="wave-award">
+                                        <h6 class="uk-margin-small-top uk-margin-remove-bottom">Best Blockchain Accelerator and Execution Broker </h6>
+                                        <p class="uk-text-small uk-margin-remove-top">AZTOMARKETS EXPO Dubai 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="uk-width-1-1 uk-margin-medium-top">
+                <div class="uk-grid-divider uk-grid" data-uk-grid="">
+                    <div class="uk-width-auto@m uk-flex uk-flex-middle uk-first-column jc-sm">
+                        <p class="uk-text-lead uk-text-muted uk-margin-right">As seen on</p>
+                    </div>
+                    <div class="uk-width-expand@m f-cont_888ji98">
+                        <div class="uk-grid-medium uk-child-width-1-4@s uk-child-width-1-5@m uk-text-center in-client-logo-3 uk-grid" data-uk-grid="">
+                            <div class="uk-tile uk-tile-default uk-first-column">
+                                <img class="uk-margin-remove" src="{{url('/')}}/asset/nova/img/in-wave-media-1.svg" alt="client-logo" width="147" height="42">
+                            </div>
+                            <div class="uk-tile uk-tile-default">
+                                <img class="uk-margin-remove" src="{{url('/')}}/asset/nova/img/in-wave-media-2.svg" alt="client-logo" width="147" height="42">
+                            </div>
+                            <div class="uk-tile uk-tile-default">
+                                <img class="uk-margin-remove" src="{{url('/')}}/asset/nova/img/in-wave-media-3.svg" alt="client-logo" width="147" height="42">
+                            </div>
+                            <div class="uk-tile uk-tile-default">
+                                <img class="uk-margin-remove" src="{{url('/')}}/asset/nova/img/in-wave-media-4.svg" alt="client-logo" width="147" height="42">
+                            </div>
+                            <div class="uk-tile uk-tile-default uk-visible@m">
+                                <img class="uk-margin-remove" src="{{url('/')}}/asset/nova/img/in-wave-media-5.svg" alt="client-logo" width="147" height="42">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+            </div>
+        </div>
+
 
         <div id="tored"></div>
-        <section class="mb80 mt80">
+        {{-- <section class="mb80 mt80">
             <div class="container-custom" id="sec-intro">
                 <div class="row justify-content-center">
                     <div class="col-md-4">
@@ -136,7 +282,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!--<section style="position: relative">-->
         <!--    <div class="container">-->
@@ -186,10 +332,182 @@
             </div>
         </section>
 
+        
+<style>
+    .yuwnk7826stef img{
+        height: 420px !important;
+        object-fit: cover !important;
+    }
+</style>
+
+
+
+
+<style>
+    .jdjjwjwjw9292992_stef .in-wave-12-counter h1 {
+        font-size: 30px !important;
+        text-transform: uppercase !important;
+    }
+
+    .jdjjwjwjw9292992_stef .in-wave-12-counter h1 .in-wave-12-small{
+        font-size: 17px !important;
+    }
+
+    .jdjjwjwjw9292992_stef .in-wave-12-counter .uk-text-muted.uk-margin-remove-top{
+        font-size: 13px !important;
+    }
+    .jdjjwjwjw9292992_stef .in-wave-12-counter .uk-margin-top.uk-margin-remove-bottom{
+        font-size: 14px !important;
+    }
+
+
+    .in-wave-12 blockquote .uk-label{
+        background-color:  #016a01 !important;
+    }
+
+    .in-wave-12 .in-wave-12-counter {
+        border-bottom: 1px solid #0d6a01 !important;
+    }
+</style>
+
+        <section>
+            <div data-animate="fadeIn" class="uk-section in-wave-12 in-offset-bottom-70" data-animate="fadeIn">
+                <div class="uk-container">
+                <div class="uk-grid">
+                <div class="uk-width-3-4@m">
+                    <h1 class="uk-margin-remove-bottom hhhsuusjsj9wjkwmkkw" style="text-transform: uppercase;
+                    font-size: 30px; text-align: center;">Why Investors choose <span>Bitfarmfxt</span></h1>
+                </div>
+                </div>
+                <div class="uk-grid-large uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-large-top uk-grid jdjjwjwjw9292992_stef" data-uk-grid="">
+                <div class="uk-first-column">
+                    <div class="in-wave-12-counter">
+                        <h1 class="uk-heading-medium uk-margin-remove">
+                            <span class="count" data-counter-end="20">7+ </span>  &nbsp;
+                            <span class="in-wave-12-small">years</span>
+                        </h1>
+                        <h4 class="uk-margin-top uk-margin-remove-bottom">Experience</h4>
+                        <p class="uk-text-muted uk-margin-remove-top">Since 2013</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="in-wave-12-counter">
+                        <h1 class="uk-heading-medium uk-margin-remove">
+                            <span class="count" data-counter-end="15">4+ </span> &nbsp;
+                            <span class="in-wave-12-small">years</span>
+                        </h1>
+                        <h4 class="uk-margin-top uk-margin-remove-bottom">SEC Regulated</h4>
+                        <p class="uk-text-muted uk-margin-remove-top">Since 2016</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="in-wave-12-counter">
+                        <h1 class="uk-heading-medium uk-margin-remove" style="font-size: 28px !important;">
+                            <span class="count" data-counter-end="18">Over 3 </span>  &nbsp;
+                            <span class="in-wave-12-small">million</span>
+                        </h1>
+                        <h4 class="uk-margin-top uk-margin-remove-bottom">Active Investment Accounts</h4>
+                        <p class="uk-text-muted uk-margin-remove-top">Worldwide Investors</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="in-wave-12-counter">
+                        <h1 class="uk-heading-medium uk-margin-remove" style="font-size: 28px !important;">
+                            <span class="count" data-counter-end="24">$90+ </span>  &nbsp;
+                            <span class="in-wave-12-small">Billion USD</span>
+                        </h1>
+                        <h4 class="uk-margin-top uk-margin-remove-bottom">In Active Investments</h4>
+                        <p class="uk-text-muted uk-margin-remove-top">Capital Invested</p>
+                    </div>
+                </div>
+                </div>
+                <div class="uk-grid uk-flex uk-flex-center uk-background-contain uk-background-top-center in-testimoni-wrap uk-background-image@m" style="background-image: url(img/in-wave-testibg.jpg);">
+                <div class="uk-width-3-4@m">
+                    <div class="uk-flex uk-flex-middle uk-grid" data-uk-grid="">
+                        <div class="uk-width-1-1 uk-width-auto@m uk-flex-last uk-flex-first@m uk-first-column">
+                            <img class="uk-align-center uk-margin-remove-bottom" src="{{url('/')}}/asset/nova/img/in-testimoni-1.png" alt="client-testimoni" width="300">
+                        </div>
+                        <div class="uk-width-1-1 uk-width-expand@m">
+                            <blockquote>
+                                <p class="uk-margin-bottom uk-text-large" style="font-size: 16px;">
+            
+                                I have been an investor at Bitfarmfxt the past few years. They have been great to work with and offer a good ROI (return of investment). As an investment banker for over 45 years, recently retired, I am a tough grader but this company met and surpassed my expectations. They are a reliable source to preserve principal and get a steady stream of income. Bitfarmfxt has always been professional and effective at meeting my financial needs.
+            
+            
+                                </p>
+                                <footer>Anthony Keiser<br><cite class="uk-label uk-text-small uk-border-pill">Investor since 2017</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- section content end -->
+        
+        <section>
+            <div data-animate="fadeIn" class="uk-section">
+                <div class="uk-container">
+                    <div class="uk-grid" data-uk-grid="">
+                        <div class="uk-width-1-3@m uk-margin-top uk-first-column">
+                            <h2>Bitfarmfxt</h2>
+                            <p>Invest with confidence and benefit from the reliability of a trusted broker with a proven record of
+                                stability, security and strength.</p> <a
+                                class="uk-button uk-button-primary uk-button-large uk-border-rounded" href="{{route('register')}}">Open an Account</a>
+                            <p>Not ready? <a href="{{route('about')}}">Learn more about us.</a></p>
+                        </div>
+                        <div class="uk-width-expand@m">
+                            <div
+                                class="uk-grid uk-grid-collapse uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center monee-custom-tile">
+                                <div class="uk-tile uk-tile-default"> <img class="uk-margin-remove-bottom"
+                                        src="{{url('/')}}/asset/nova/img/monee-content-feature1.svg"
+                                        data-src="{{url('/')}}/asset/nova/img/monee-content-feature1.svg" alt="monee-feauture" width="50" height="48"
+                                        data-uk-img="">
+                                    <h5 class="uk-margin-small-top">Lucrative Returns</h5>
+                                </div>
+                                <div class="uk-tile uk-tile-default"> <img class="uk-margin-remove-bottom"
+                                        src="{{url('/')}}/asset/nova/img/monee-content-feature2.svg"
+                                        data-src="{{url('/')}}/asset/nova/img/monee-content-feature2.svg" alt="monee-feauture" width="50" height="48"
+                                        data-uk-img="">
+                                    <h5 class="uk-margin-small-top">Fast executions</h5>
+                                </div>
+                                <div class="uk-tile uk-tile-default"> <img class="uk-margin-remove-bottom"
+                                        src="{{url('/')}}/asset/nova/img/monee-content-feature3.svg"
+                                        data-src="{{url('/')}}/asset/nova/img/monee-content-feature3.svg" alt="monee-feauture" width="50" height="48"
+                                        data-uk-img="">
+                                    <h5 class="uk-margin-small-top" style="text-transform: capitalize">World class crypto trading technologies</h5>
+                                </div>
+                                <div class="uk-tile uk-tile-default"> <img class="uk-margin-remove-bottom"
+                                        src="{{url('/')}}/asset/nova/img/monee-content-feature4.svg"
+                                        data-src="{{url('/')}}/asset/nova/img/monee-content-feature4.svg" alt="monee-feauture" width="50" height="48"
+                                        data-uk-img="">
+                                    <h5 class="uk-margin-small-top">Investor Support &amp; guide</h5>
+                                </div>
+                                <div class="uk-tile uk-tile-default uk-visible@m"> <img class="uk-margin-remove-bottom"
+                                        src="{{url('/')}}/asset/nova/img/monee-content-feature5.svg"
+                                        data-src="{{url('/')}}/asset/nova/img/monee-content-feature5.svg" alt="monee-feauture" width="50" height="48"
+                                        data-uk-img="">
+                                    <h5 class="uk-margin-small-top">Investor Oriented</h5>
+                                </div>
+                                <div class="uk-tile uk-tile-default uk-visible@m"> <img class="uk-margin-remove-bottom"
+                                        src="{{url('/')}}/asset/nova/img/monee-content-feature6.svg"
+                                        data-src="{{url('/')}}/asset/nova/img/monee-content-feature6.svg" alt="monee-feauture" width="50" height="48"
+                                        data-uk-img="">
+                                    <h5 class="uk-margin-small-top">Strongly regulated</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
         <section class="mt50">
             <div class="plan">
                 <div class="plan__heading text-center">
-                    <h3 class="h3-heading text-center">Price list</h3>
+                    {{-- <h3 class="h3-heading text-center">Price list</h3> --}}
                     <h1 class="mb15">plans we offer</h1>
                     <div class="divider">
                         <div class="divider__span">
@@ -441,7 +759,7 @@
 
 
 
-        <section class="mt100 mb20" id="prices">
+        {{-- <section class="mt100 mb20" id="prices">
             <div class="container">
                 <div class="crypto-price">
                     <div class="crypto-price__heading mb50">
@@ -499,7 +817,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         {{-- <section class="testimonial-bg">
             <div class="testimonial pt100 pb100" id="reviews">
@@ -639,7 +957,7 @@
             </div>
         </section> --}}
 
-        <section class="pb100" style="background-color: #fafbfb">
+        {{-- <section class="pb100" style="background-color: #fafbfb">
             <div class="embrace">
                 <div class="embrace__bg bg-img">
                     <div class="overlay_dark" style="background-color: rgba(0,0,0,.4)"></div>
@@ -671,9 +989,167 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
+                
+        <style>
+            .crypto-logos img{
+                height: 70px;
+            }
+        </style>
 
-        <section class="tab pt200 pb150">
+        <div data-animate="fadeIn" class="uk-section">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="uk-width-1-1">
+                        <div class="uk-card uk-card-secondary">
+                            <div class="uk-card-body">
+                                <style>
+                                    .uejje7893hh38 .uk-width-expand p{
+                                        font-size: 14px !important;
+                                    }
+
+                                    .uejje7893hh38 .in-icon-wrapper.small.theme-color{
+                                        font-size: 16px;
+                                    }
+                                </style>
+                                <div class="uk-grid uk-child-width-1-1 uk-child-width-1-3@m uejje7893hh38" data-uk-grid="">
+                                    <div class="uk-first-column">
+                                        <div class="uk-grid uk-grid-small">
+                                            <div class="uk-width-auto">
+                                                <div class="in-icon-wrapper small theme-color"> 1 </div>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <h3 class="uk-margin-remove-bottom">Register</h3>
+                                                <p class="uk-margin-small-top uk-margin-remove-bottom">To get started, you need to create a new Bitfarmfxt Account. <br> Fill in the required infomrmation on the "create account" page to create your free Bitfarmfxt investment account.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-grid uk-grid-small">
+                                            <div class="uk-width-auto">
+                                                <div class="in-icon-wrapper small theme-color"> 2 </div>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <h3 class="uk-margin-remove-bottom">Fund</h3>
+                                                <p class="uk-margin-small-top uk-margin-remove-bottom">Before you can purchase an investment plan and commence investing you will need to fund your account. <br> You can fund your investment account using either Bitcoin, Ethereum or Bitcoin Cash.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="uk-grid uk-grid-small">
+                                            <div class="uk-width-auto">
+                                                <div class="in-icon-wrapper small theme-color"> 3 </div>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <h3 class="uk-margin-remove-bottom">Earn</h3>
+                                                <p class="uk-margin-small-top uk-margin-remove-bottom">After you have made an investment, you can sit back and watch your balance grow daily while our traders manage your risks for you. <br> You can withdraw your earnings (ROI) when they mature.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="uk-width-1-1 ryr93k3k monee-payment-list uk-margin-medium-top uk-grid-margin uk-first-column">
+                                        <hr>
+                                        <div class="uk-grid-divider crypto-logos uk-child-width-1-6@m uk-child-width-1-2@s uk-grid"
+                                            data-uk-grid="">
+                                            <div class="uk-first-column"> <img class="uk-align-center btc-crypto-logo"
+                                                    src="{{url('/')}}/asset/nova/site-images/crypto-logos/bitcoin-logo.svg"
+                                                    data-src="{{url('/')}}/asset/nova/img/monee-payment-mastercard.svg" alt="monee-mastercard"
+                                                    width="103" height="32" data-uk-img=""> </div>
+                                            <div> <img class="uk-align-center" style="width: 100% !important;"
+                                                    src="{{url('/')}}/asset/nova/site-images/crypto-logos/ethereum.svg"
+                                                    data-src="{{url('/')}}/asset/nova/img/monee-payment-visa.svg" alt="monee-visa" width="103"
+                                                    height="32" data-uk-img=""> </div>
+                                            <div> <img class="uk-align-center"
+                                                    src="{{url('/')}}/asset/nova/site-images/crypto-logos/ripple.svg"
+                                                    data-src="{{url('/')}}/asset/nova/img/monee-payment-paypal.svg" alt="monee-paypal" width="103"
+                                                    height="32" data-uk-img=""> </div>
+                                            <div> <img class="uk-align-center"
+                                                    src="{{url('/')}}/asset/nova/site-images/crypto-logos/aricoin.svg"
+                                                    data-src="{{url('/')}}/asset/nova/img/monee-payment-skrill.svg" alt="monee-skrill" width="103"
+                                                    height="32" data-uk-img=""> </div>
+                                            <div class="uk-visible@m"> <img class="uk-align-center"
+                                                    src="{{url('/')}}/asset/nova/site-images/crypto-logos/libra-2.svg"
+                                                    data-src="{{url('/')}}/asset/nova/img/monee-payment-neteller.svg" alt="monee-neteller" width="103"
+                                                    height="32" data-uk-img=""> </div>
+                                            <div class="uk-visible@m">
+                                                <img class="uk-align-center"
+                                                    src="{{url('/')}}/asset/nova/site-images/crypto-logos/husd-3.svg"
+                                                    data-src="{{url('/')}}/asset/nova/img/monee-payment-unionpay.svg" alt="monee-unionpay" width="103"
+                                                    height="32" data-uk-img=""> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .testimonial-item p{
+                font-size: 14px !important;
+            }
+        </style>
+        <section data-animate="fadeIn" style="padding-top: 35px; padding-bottom: 40px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12">
+                        <h2 class="tup" style="font-size: 23px;">What our investors are saying about us</h2>
+                        <p class="lead" style="font-size: 15px">We use the reviews of our investors as the yard stick to measure how well or otherwise we are doing in the dispensation of our services to our investors all over the world. <br> We are always happy to share the positive reviews of our investors and improve on the areas we have been found wanting.</p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="carousel arrows-visibile testimonial testimonial-single testimonial-left" data-items="1" data-animate-in="fadeIn" data-animate-out="fadeOut" data-arrows="false">
+                            <div class="testimonial-item">
+                                <img src="{{url('/')}}/asset/nova/img/reviewer2.jpg" alt="">
+                                <p>I've had incredible customer service since I started investing here, I'm a repeat investor. I've been investng with Bitfarmfxt Investments for nearly 3 years now and i've loved every bit of the experience so far.</p>
+                                <span>Ron DiCicco</span>
+                                <span>Florida, United States</span>
+                            </div>
+                            
+                            <div class="testimonial-item">
+                                <img src="{{url('/')}}/asset/nova/img/reviewer3.jpg" alt="">
+                                <p>Transparent, profitable, and reliable bitcoin investment company that will make you real money. Thanks to all of you at Bitfarmfxt Investments for the excellent service.  </p>
+                                <span>Diane Podmanik</span>
+                                <span>Budapest, Hungary</span>
+                            </div>
+                            
+                            <div class="testimonial-item">
+                                <img src="{{url('/')}}/asset/nova/img/reviewer5.jpg" alt="">
+                                <p>I have always been searching for an opportunity to earn on bitcoin and finally I found Bitfarmfxt investments and they have proven to be very reliable since I've been investing with them.</p>
+                                <span>Joe Tantillo</span>
+                                <span>Prague, Czech Republic</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section> <br><br>
+        
+        <div data-animate="fadeInLeft" class="uk-section">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="uk-width-1-1">
+                        <div class="uk-card uk-card-default uk-background-center-right uk-background-contain uk-background-image@m"
+                            style="background-image: url({{url('/')}}/asset/nova/img/in-cta-background.png);">
+                            <div class="uk-card-body">
+                                <div class="uk-grid uk-flex-middle" data-uk-grid="">
+                                    <div class="uk-width-1-1 uk-width-expand@m uk-first-column">
+                                        <h3>Lucrative CryptoCurrency Investment opportunity at your fingertips.</h3>
+                                    </div>
+                                    <div class="uk-width-auto"> <a
+                                            class="uk-button uk-button-primary uk-button-large uk-border-rounded"
+                                            href="{{route('register')}}">Open an Account</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- <section class="tab pt200 pb150">
             <div class="tablist">
                 <div class="tablist__container">
                     <ul>
@@ -759,7 +1235,7 @@
                     </div>
                 </div>
             </div>
-        </section> <hr>
+        </section> <hr> --}}
         {{-- <section class="basic">
             <div class="container">
                 <div class="basic-info">
@@ -806,7 +1282,7 @@
         </section> --}}
     </main>
 
-    <section class="pt100 join-bg pb100">
+    {{-- <section class="pt100 join-bg pb100">
         <div class="join" id="parallax">
             <div>
                 <div class="row justify-content-center text-center">
@@ -830,5 +1306,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @stop

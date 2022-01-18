@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from www.tradeworth.org/register by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:37 GMT -->
+<!-- Mirrored from www.Bitfarmfxt.org/register by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:37 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
-    <meta name="description" content="Take a step today by joining us here at tradeworth and get started on our investment platform, already registered? login to your account dashboard">
-    <meta name="keywords" content="crytpo, cryptocurrency, forex, bitcoin, investment, ethereum, litecoin, tradeworth, crypto-investment">
-    <meta name="author" content="tradeworth company developer">
+    <meta name="description" content="Take a step today by joining us here at Bitfarmfxt and get started on our investment platform, already registered? login to your account dashboard">
+    <meta name="keywords" content="crytpo, cryptocurrency, forex, bitcoin, investment, ethereum, litecoin, Bitfarmfxt, crypto-investment">
+    <meta name="author" content="Bitfarmfxt company developer">
     <meta name="identifier-url" content="index.html">
-    <meta name="contact" content="support@tradeworth.org">
+    <meta name="contact" content="support@Bitfarmfxt.org">
     <meta name="robots" content="index, follow, all">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title> Bitfarmfxt | Authentication (Take a step today by joining us)</title>
@@ -249,7 +249,7 @@
                     <div class="footer">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                Email: support@tradeworth.org
+                                Email: support@Bitfarmfxt.org
                             </div>
                             <div class="col-4 text-right">
                                 <i class="cc BTC"></i>
@@ -281,7 +281,7 @@
                                     </a>
                                 </div>
                                 <h4>Embrace Cryptocurrency</h4>
-                                <a class="socio-link" href="https://www.instagram.com/tradeworth.investments"><i class="ti-instagram"></i></a>
+                                <a class="socio-link" href="https://www.instagram.com/Bitfarmfxt.investments"><i class="ti-instagram"></i></a>
                                 <a class="socio-link" href="https://www.youtube.com/"><i class="ti-youtube"></i></a>
                                 <!--<a class="socio-link" href="https://www.youtube.com/"><i class="ti-reddit"></i></a>-->
                             </div>
@@ -301,7 +301,7 @@
     <script src="{{url('/')}}/asset/clone/java/login.js"></script>
 </body>
 
-<!-- Mirrored from www.tradeworth.org/register by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:38 GMT -->
+<!-- Mirrored from www.Bitfarmfxt.org/register by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:38 GMT -->
 </html>
 <script src="{{url('/')}}/asset/clone/java/register.js"></script>
 

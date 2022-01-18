@@ -29,7 +29,6 @@
     <link rel="preload" href="{{url('/')}}/asset/clone/java/uikit.min.js" as="script">
     <link rel="preload" href="{{url('/')}}/asset/clone/stylesheet/uikit.min.css" as="style">    
     {{-- <link rel="preload" href="{{url('/')}}/asset/clone/stylesheet/style.css" as="style">     --}}
-    
     <link rel="icon" href="{{url('/')}}/asset/{{$logo->image_link2}}">
     <link href="{{url('/')}}/asset/clone/stylesheet/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{url('/')}}/asset/clone/stylesheet/aos.css">
@@ -44,6 +43,10 @@
     <link rel="stylesheet" href="{{url('/')}}/asset/clone/stylesheet/simple-line-icons.css">
     <link rel="stylesheet" href="{{url('/')}}/asset/clone/stylesheet/micell.css">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/toast.css" type="text/css">
+    <link href="{{url('/')}}/asset/nova/imported-css.css" rel="stylesheet" />
+    <link href="{{url('/')}}/asset/nova/css/plugins.css" rel="stylesheet">
+    <link href="{{url('/')}}/asset/nova/css/style.css" rel="stylesheet">
+
     @yield('css')
 </head>
 <script type="application/ld+json">    
@@ -441,19 +444,8 @@
   <!-- TradingView Widget END -->
 </footer>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='../embed.tawk.to/5d7a2bf9c22bdd393bb57e60/default.js';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+{!!$set->livechat!!}
+
 
 <script src="{{url('/')}}/asset/clone/java/jquery.min.js"></script>
 <script src="../cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
@@ -466,6 +458,9 @@ s0.parentNode.insertBefore(s1,s0);
 <script src="{{url('/')}}/asset/clone/java/aos.js"></script>
 <script src="{{url('/')}}/asset/clone/java/swiper.js"></script>
 
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{url('/')}}/asset/nova/js/plugins.js"></script>
+<script src="{{url('/')}}/asset/nova/imported-js.js"></script>
+<script src="{{url('/')}}/asset/nova/js/functions.js"></script>
 
 <!--// 		var countDownDate = new Date("Nov 12, 2020 15:37:25").getTime();-->
 <!--// 		var x = setInterval(function () {-->
