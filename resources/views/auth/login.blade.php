@@ -240,7 +240,6 @@
     <script src="{{url('/')}}/asset/clone/java/swiper.js"></script>
     <script src="{{url('/')}}/asset/clone/java/login.js"></script>
     <script src="{{url('/')}}/asset/js/toast.js"></script>
-
 </body>
 </html>
 @if (session('success'))

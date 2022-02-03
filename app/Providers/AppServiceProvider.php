@@ -129,6 +129,7 @@ class AppServiceProvider extends ServiceProvider
                     if (Carbon::now()<$ndate){
                         $profits->profit=$xpro->percent*$xpro->amount/100*$date_diff->format('%R%a');
                         $outcome=$xpro->compound*$xpro->amount/100;
+                        $daily_gain = $xpro->percent*$xpro->amount/100;
                         $capital=$xpro->amount;
                         $castro_profit=$outcome-$capital;
                         $real_profit=($xpro->percent*$xpro->amount/100*$date_diff->format('%R%a'))-$xpro->amount;
@@ -138,6 +139,10 @@ class AppServiceProvider extends ServiceProvider
                             $profits->real_profit=$xpro->percent*$xpro->amount/100*$date_diff->format('%R%a');
                         }
                         $profits->save();
+                        if($set->email_notify==1){
+                            send_email($user->email, $user->site_name, 'Credit alert', 'Your investment plan, '.$xpro->trx.' has been credited with $'.$daily_gain.'. Your balance is $'.$profits->profit.' Thanks for choosing us.');
+                        }
+
                     }else{
                         $fdate=$xpro->compound*$xpro->amount/100;
                         $profits->profit=$fdate;
