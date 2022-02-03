@@ -96,7 +96,6 @@ class LoginController extends Controller
                 $audit['log']='Logged In';
                 Audit::create($audit);
                 return redirect()->intended('user/dashboard');
-
             }
             
         } else {

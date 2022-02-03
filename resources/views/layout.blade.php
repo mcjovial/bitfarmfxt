@@ -229,7 +229,7 @@
 
 <div class="logo-resp">
     <div class="logo__img">
-        <img src="{{url('/')}}/asset/{{$logo->image_link}}" class="last" alt="Trade">
+        <img src="{{url('/')}}/asset/{{$logo->image_link}}" class="last" alt="Bitfarmfxt" width="150">
     </div>
 </div>
 
@@ -335,7 +335,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="footer__logo widthper text-left-md">
-                    <img src="{{url('/')}}/asset/{{$logo->image_link}}" alt="Bitfarmfxt's Logo">
+                    <img src="{{url('/')}}/asset/{{$logo->image_link}}" alt="Bitfarmfxt's Logo" width="150">
                     <p>We are a professional and trusted wealth management company with specializations in Wealth Creation and Digital Assets.</p>
                     <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-world"></i>&nbsp; 1166 6th Ave, New York, NY 10036, United States.</p>
                     <p style="line-height: 1.5;margin-bottom: .8rem;"><i class="ti-mobile"></i>&nbsp; +1 (917)-985-7247</p>
@@ -444,7 +444,7 @@
   <!-- TradingView Widget END -->
 </footer>
 
-{!!$set->livechat!!}
+<!-- {!!$set->livechat!!} -->
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

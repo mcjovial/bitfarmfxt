@@ -117,6 +117,11 @@
                                                 <input type="email" name="email" autocapitalize="none" class="form-control reg" placeholder="Enter Email address">
                                             </div>
                                         </div>
+                                        <div class="form-group">
+                                            <div class="form-group__container">
+                                                <input type="text" name="phone" autocapitalize="none" class="form-control reg" placeholder="Enter Phone number">
+                                            </div>
+                                        </div>
         
                                         <div class="form-group">
                                             <div class="form-group__container">
@@ -299,6 +304,7 @@
     <script src="{{url('/')}}/asset/clone/java/bootstrap.min.js"></script>
     <script src="{{url('/')}}/asset/clone/java/swiper.js"></script>
     <script src="{{url('/')}}/asset/clone/java/login.js"></script>
+    <script src="{{url('/')}}/asset/js/toast.js"></script>
 </body>
 
 <!-- Mirrored from www.Bitfarmfxt.org/register by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:38 GMT -->
