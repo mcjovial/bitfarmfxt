@@ -211,14 +211,19 @@
             <!--<li class="navigation__item">-->
             <!--    <a href="/ai-bot" class="navigation__link" >Ai-bot</a>-->
             <!--</li>-->
-            
+            @if (Auth::guard('user')->check())
+                <li class="navigation__item">
+                    <a href="{{route('user.dashboard')}}" class="navigation__link">Dashboard</a>
+                </li>
+            @else
                 <li class="navigation__item">
                     <a href="{{route('login')}}" class="navigation__link">Log in</a>
                 </li>
                 <li class="navigation__item">
                     <a href="{{route('register')}}" class="navigation__link">Register</a>
                 </li>
-            
+            @endif
+
             {{-- <li class="navigation__item">
                 <a href="referral-program.html" class="navigation__link" >Affiliate</a>
             </li> --}}
@@ -302,14 +307,19 @@
                     <a class="nav-link " href="referral-program.html"  >Affiliate</a>
                 </li> --}}
                 
-                
-                    <li class="nav-item">
-                        <a class="nav-link " href="{{route('login')}}">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="{{route('register')}}">Register</a>
-                    </li>
-                
+                @if (Auth::guard('user')->check())
+                        <li class="nav-item">
+                            <a href="{{route('login')}}" class="nav-link">Log in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{route('register')}}" class="nav-link">Register</a>
+                        </li>
+                    @else
+                        <li class="nav-item">
+                            <a href="{{route('user.dashboard')}}" class="nav-link">Dashboard</a>
+                        </li>
+                    @endif
+
                 
                 <li class="nav-item">
                     <a class="nav-link " href="{{route('contact')}}"  >Support</a>
