@@ -145,7 +145,7 @@ class RegisterController extends Controller
             'password' => $request->password,
         ])) {
 
-            send_email($user->email, $user->name, 'Welcome to BitfarmFxt, thank you for signing up');
+            send_email($user->email, $user->name, 'Welcome', 'Welcome to BitfarmFxt, thank you for signing up');
             return redirect()->route('user.dashboard');
         }
     }    
