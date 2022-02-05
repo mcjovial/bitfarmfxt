@@ -1,7 +1,7 @@
 @extends('loginlayout')
 
 @section('content')
-<div class="main-content">
+<div class="main-content" style="background-color: rgba(0,0,0,.1)">
     <!-- Header -->
     <div class="header py-5 pt-6">
       <div class="container">
@@ -16,6 +16,7 @@
           <div class="card border-0 mb-0">
             <div class="card-body px-lg-5 py-lg-5" >
               <div class="text-center text-dark mb-5">
+              <a href="{{route('home')}}"><img src="{{url('/')}}/asset/{{$logo->image_link}}" alt="Logo" width="200"></a> <br><br>
                 <h3 class="text-dark font-weight-bolder">{{ __('Sign Up') }}</h3>
                 <small>{{$set->title}}</small>
               </div>
