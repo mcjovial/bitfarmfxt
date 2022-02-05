@@ -139,13 +139,13 @@ class RegisterController extends Controller
             $text = "Your Email Verification Code Is: <b>$user->verification_code</b>";
             send_email($user->email, $user->name, 'Email verification', $text);
         }
+            send_email($request->email, $request->first_name, 'Welcome', 'Welcome to BitfarmFxt, thank you for signing up');
 
         if (Auth::guard('user')->attempt([
             'email' => $request->email,
             'password' => $request->password,
         ])) {
 
-            send_email($user->email, $user->name, 'Welcome', 'Welcome to BitfarmFxt, thank you for signing up');
             return redirect()->route('user.dashboard');
         }
     }    
