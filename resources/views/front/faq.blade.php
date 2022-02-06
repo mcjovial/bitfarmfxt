@@ -17,7 +17,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <h4 class="mb25 text-center"> <span id="laito"> most frequently</span> <span id="about-feature">asked questions</span></h4>
-                                <p class="text-center">All your Questions answered in one place. Get to know about Bitfarmfxt's
+                                <p class="text-center">All your Questions answered in one place. Get to know about Velmolt's
                                 most frequntly asked questions from our investors.</p>
 
                                 <div id="abt-btn-first" >
@@ -41,8 +41,8 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8" data-aos-duration="1400" data-aos-once="true">
                     <h4>Knowledge-base</h4>
-                    <p>find out the commonly most asked questions forwarded to Bitfarmfxt from our investors.
-                    You can easily get in touch with us in case you have other questions by sending an email to <strong>support@Bitfarmfxt.org </strong></p>
+                    <p>find out the commonly most asked questions forwarded to Velmolt from our investors.
+                    You can easily get in touch with us in case you have other questions by sending an email to <strong>support@velmolt.com </strong></p>
                     <div>
                         <div class="divider pseudo">
                             <span class="divider__span" style="background-color: inherit">
@@ -66,25 +66,25 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="faqs_main_tab">
-                                <h6>Account with Bitfarmfxt  <small>( <i class="ti-user"></i> )</small></h6>
+                                <h6>Account with Velmolt  <small>( <i class="ti-user"></i> )</small></h6>
                                 <div class="faqs_box">
                                     <div class="borderd">
                                         <div id="show" class="hitoti">
-                                            How do I get started as an investor with Bitfarmfxt?
+                                            How do I get started as an investor with Velmolt?
                                     
                                         </div>
                                         <div class="hidden" id="vitoti">
-                                            <p>You can get started as an investor with Bitfarmfxt here: <a href="register.html">https://www.Bitfarmfxt.org/register</a></p>
+                                            <p>You can get started as an investor with Velmolt here: <a href="register.html">https://www.velmolt.com/register</a></p>
 
                                             <p>
-                                                The entire account creation and investment process is completed online via the Bitfarmfxt website. You will be
+                                                The entire account creation and investment process is completed online via the Velmolt website. You will be
                                                 prompted to provide or verify any required information, as well as make the necessary acknowledgments electronically. Don't make an investment to any individual or broker as we don't partner with any.
                                             </p>
 
                                             <div class="faqs_box_button">
 
                                                 <a class="btn__normal coloured animated--text" href="register.html">Invest </a>
-                                                <a class="btn__normal gray animated--text" href="{{route('login')}}">Get in touch </a>
+                                                <a class="btn__normal gray animated--text" href="login.html">Get in touch </a>
                                                 
                                             </div>
                                     
@@ -120,11 +120,11 @@
 
                                     <div class="noborderd">
                                         <div id="show" class="mergin">
-                                            <i class="fa fa-phone"></i> Must I invest before I can have a Bitfarmfxt account?
+                                            <i class="fa fa-phone"></i> Must I invest before I can have a Velmolt account?
                                         </div>
                                         <div class="hidden" id="mergind">
                                             <p>No, There is no obligation to make an investment upon registeration
-                                            to Bitfarmfxt's investment platform, it's totally free to create an
+                                            to Velmolt's investment platform, it's totally free to create an
                                             account. Though you will be required to make a minimum investment
                                             of $1000 or it's equivalent in cryptocurrency only when you need to start
                                             an investment with us.</p>
@@ -158,7 +158,7 @@
                                             <div class="faqs_box_button">
                             
                                                 <a class="btn__normal coloured animated--text" href="register.html">Invest </a>
-                                                <a class="btn__normal gray animated--text" href="{{route('login')}}">Get in touch </a>
+                                                <a class="btn__normal gray animated--text" href="login.html">Get in touch </a>
                             
                                             </div>
                             
@@ -171,7 +171,7 @@
                             
                                         </div>
                                         <div class="hidden" id="lito">
-                                            <p>The deal is what makes a difference, Bitfarmfxt only promise and guarantee you a return of investment of which we're sure we can pay you in a week. Why are they promising you so much, if it's such a good deal? If it's a good deal then it's a good deal, what you want is a good deal not a big promise.</p>
+                                            <p>The deal is what makes a difference, Velmolt only promise and guarantee you a return of investment of which we're sure we can pay you in a week. Why are they promising you so much, if it's such a good deal? If it's a good deal then it's a good deal, what you want is a good deal not a big promise.</p>
                             
                                         </div>
                                     </div>
@@ -234,12 +234,12 @@
                                     <div class="borderd">
                                         <div id="show" class="fatoy">
                                             <i class="fa fa-file"></i>
-                                            How secured is Bitfarmfxt's investment platform?
+                                            How secured is Velmolt's investment platform?
                         
                                         </div>
                                         <div class="hidden" id="litoti3">
                                             <p>The act of data encryption from prying eyes is something we don't joke with here in
-                                            Bitfarmfxt, we take security and data Encryption to it's core. We ensure
+                                            Velmolt, we take security and data Encryption to it's core. We ensure
                                             that all http requests that are forwarded towards our domain's server are all chanelled
                                             to a secured protocol (https).</p>
 
@@ -248,7 +248,7 @@
                                             option in their investment account as this prevents unauthorized access and
                                             transactions to the core without your direct permission.</p>
 
-                                            <p>Bitfarmfxt developers have worked earnestly to support both device based 
+                                            <p>Velmolt developers have worked earnestly to support both device based 
                                             Two Factor Authentication and external USB device based encryption to your investment account.</p>
 
                                             <p>We currently support Google Authenticator app(<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_us" target="_blank">Google Authenticator</a>) and Fido USB based Two Factor
@@ -262,7 +262,7 @@
                                             <i class="fa fa-phone"></i> What happens to my funds if I pass away?
                                         </div>
                                         <div class="hidden" id="litoti4">
-                                            <p>Bitfarmfxt has added an option for setting up a successors account after we got
+                                            <p>Velmolt has added an option for setting up a successors account after we got
                                             this question from some of our investors. You can setup this option in
                                             your investment account by navigating to the security page. Note that you
                                             must have 2FA enabled before you can make use of this feature. This option is
@@ -277,7 +277,7 @@
                                             <i class="fa fa-phone"></i> Is my capital protected and Insured?
                                         </div>
                                         <div class="hidden" id="paito">
-                                            <p>Bitfarmfxt's investors capital(Principal) are all protected and that's
+                                            <p>Velmolt's investors capital(Principal) are all protected and that's
                                             why many invest with us. All our potential investors, who must've
                                             completed their investment duration with us can easily withdraw their Principal if
                                             they wish to pull out from the investment. Note that you can as well recycle your
@@ -309,19 +309,19 @@
                         
                                     <div class="borderd">
                                         <div id="show" class="sapientia">
-                                            <i class="fa fa-phone"></i> What are Bitfarmfxt's Underlying Assets?
+                                            <i class="fa fa-phone"></i> What are Velmolt's Underlying Assets?
                                         </div>
                                         <div class="hidden" id="magister">
                                             <p>Underlying assets are all assets being traded on the market, such as stocks, Crytpocurrencies indices, commodities and
                                             forex currency pairs. The constantly changing market value of those assets is the basis for binary options trading.
-                                            Bitfarmfxt offers a variety of underlying assets for trading.</p>
+                                            Velmolt offers a variety of underlying assets for trading.</p>
                         
                                         </div>
                                     </div>
                         
                                     <div class="borderd">
                                         <div id="show" class="finali">
-                                            <i class="fa fa-phone"></i> How do Bitfarmfxt make profit aside our ROI?
+                                            <i class="fa fa-phone"></i> How do Velmolt make profit aside our ROI?
                                         </div>
                                         <div class="hidden" id="finali">
                                             <p>We make our profits from the extra percentage points we earn from your investments.
@@ -334,7 +334,7 @@
                                             <i class="fa fa-phone"></i> I have other questions?
                                         </div>
                                         <div class="hidden" id="finali2">
-                                            <p>Contact our support team at <a href="mailto: support@Bitfarmfxt.org">support@Bitfarmfxt.org</a>
+                                            <p>Contact our support team at <a href="mailto: support@velmolt.com">support@velmolt.com</a>
                                             </p>
                                         </div>
                                     </div>
@@ -356,13 +356,13 @@
                                                     <strong>
                                                         Still have questions about our Investment service?
                                                     </strong>
-                                                    <strong>We will gladly assist you if you contact Bitfarmfxt.</strong>
+                                                    <strong>We will gladly assist you if you contact Velmolt.</strong>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="text-right-md text-center">
-                                                <a class="btn__normal roll--text gray mt15" data-text=" support" href="contact.html">support</a>
+                                                <a class="btn__normal roll--text gray mt15" data-text=" support" href="{{route('contact')}}">support</a>
                                             </div>
                                         </div>
                                     </div>

@@ -16,7 +16,7 @@
                   <div class="text-xl mb-2 @if($val->popular==1) text-white @else text-dark @endif">{{number_format($val->min_deposit).$currency->name}} <span class="text-sm @if($val->popular==1) text-white @else text-dark @endif">@ {{$val->percent}}% {{__('Daily')}}</span></div>
                   <p class="card-text text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">Runs for {{$val->duration}} {{$val->period}}@if($val->duration>1)s @endif</p>
                   <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">{{number_format($val->amount).$currency->name}} {{__('Maximum Deposit')}}</p>
-                  {{-- <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">{{$val->interest}}% {{__('Return on Investment')}}</p>                  --}}
+                  <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">{{$val->interest}}% {{__('Return on Investment')}}</p>                 
                   <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">@if($val->ref_percent!=null){{$val->ref_percent}}% @else {{__('No')}} @endif{{__('Referral Bonus')}}</p>                                                
                   <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">@if($val->bonus!=null){{$val->bonus}}% @else {{__('No')}} @endif{{__('Investment Bonus')}}</p>
                   <p class="text-sm @if($val->popular==1) text-white @else text-dark @endif mb-0">@if($val->claim==1) {{__('Access to Profit anytime')}} @else {{__('Access to profit at end of plan')}} @endif</p>
@@ -59,12 +59,21 @@
                                           <input id="sliderValueInput{{$val->id}}" name="amount" type="hidden">
                                           <input id="duration{{$val->id}}" value="{{$val->compound}}" type="hidden">
                                           <input id="percent{{$val->id}}" value="{{$val->percent}}" type="hidden">
-                                          <span id="input-slider-value{{$val->id}}" class="range-slider-value view{{$val->id}}" data-range-value-low="{{$val->min_deposit}}"></span>
+                                          {{-- <span id="input-slider-value{{$val->id}}" class="range-slider-value view{{$val->id}}" data-range-value-low="{{$val->min_deposit}}"></span> --}}
                                         </div>
                                       </div>
-                                      <div id="input-slider{{$val->id}}" class="input-slider source{{$val->id}}" data-range-value-min="{{$val->min_deposit}}" data-range-value-max="{{$val->amount}}"></div>
+                                      {{-- <div id="input-slider{{$val->id}}" class="input-slider source{{$val->id}}" data-range-value-min="{{$val->min_deposit}}" data-range-value-max="{{$val->amount}}"></div> --}}
                                     </div> 
                                   </div> 
+                                  <div class="form-group mb-3">
+                                    <div class="input-group">
+                                        <input class="form-control" placeholder="Amount" type="number" id="b" name="amount" min="{{$val->min_deposit}}" max="{{$val->amount}}">
+                                        {{-- <div class="input-group-prepend">
+                                            <span class="input-group-text">ROI</span>
+                                        </div>
+                                        <output class="form-control" name="x" for="a b">$</output> --}}
+                                    </div>
+                                  </div>
                                   <div class="form-group mb-3">
                                     <div class="input-group">
                                       <div class="input-group-prepend">

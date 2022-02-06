@@ -74,7 +74,7 @@ class RegisterController extends Controller
                 'email' => 'required|string|email|max:255|unique:users',
                 'password' => 'required|string|min:6',
                 'g-recaptcha-response' => 'required|captcha'
-            ]);        
+            ]);
         }else{
             $validator = Validator::make($request->all(), [
                 'first_name' => 'required|string|max:255',
@@ -124,6 +124,8 @@ class RegisterController extends Controller
             if($referral>0){
                 $key = User::whereusername($request->ref)->first();
                 $user->referral = $key->id;
+
+                send_email($key->email,$key->username,'New referral alert','Hello '.$key->username.', you have a new referral.');
             }
         }
         $user->save();
@@ -139,7 +141,8 @@ class RegisterController extends Controller
             $text = "Your Email Verification Code Is: <b>$user->verification_code</b>";
             send_email($user->email, $user->name, 'Email verification', $text);
         }
-            // send_email($request->email, $request->first_name, 'Welcome', 'Welcome to BitfarmFxt, thank you for signing up');
+
+        // send_email($user->email, $user->name, 'Welcome', 'Welcome to BitfarmFxt. <br> thank you for signing up');
 
         if (Auth::guard('user')->attempt([
             'email' => $request->email,

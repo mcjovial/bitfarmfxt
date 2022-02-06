@@ -100,22 +100,21 @@
                   </label>
                 </div>
                 @if($set->recaptcha==1)
-                  {!! app('captcha')->display() !!}
-                  @if ($errors->has('g-recaptcha-response'))
-                      <span class="help-block">
-                          {{ $errors->first('g-recaptcha-response') }}
-                      </span>
-                  @endif
+                    {!! app('captcha')->display() !!}
+                    @if ($errors->has('g-recaptcha-response'))
+                        <span class="help-block">
+                            {{ $errors->first('g-recaptcha-response') }}
+                        </span>
+                    @endif
                 @endif
                 <div class="text-center">
-                  <button type="submit"  class="btn btn-block my-4 text-uppercase text-success"  id="update_password">{{__('Create an Account')}}</button>
+                  <button type="submit"  class="btn btn-default btn-block my-4 text-uppercase text-success"  id="update_password">{{__('Create an Account')}}</button>
                   <div class="loginSignUpSeparator"><span class="textInSeparator">or</span></div>
                   <a href="{{route('login')}}" class="btn btn-success btn-block my-0 text-uppercase">{{__('Got an Account?')}}</a>
                 </div>
               </form>
             </div>
           </div>
-
         </div>
       </div>
     </div>

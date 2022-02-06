@@ -17,8 +17,8 @@
                     <div class="widthper mt40">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h4 class="mb25"> <span id="laito">Bitfarmfxt</span> <span id="about-feature"></span></h4>
-                                <p>Bitfarmfxt is a robust multi-asset online blockchain based trading company
+                                <h4 class="mb25"> <span id="laito">velmolt</span> <span id="about-feature"></span></h4>
+                                <p>Velmolt is a robust multi-asset online blockchain based trading company
                                 that allows interested investors to trade a variety of financial assets such as
                                 cryptocurrencies and Fiat Currency using state of the art AI enhanced market analysis and trading tools.
                                 </p>
@@ -73,9 +73,9 @@
         <div class="intro__wel text-center container ">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8" data-aos-duration="1400" data-aos-once="true">
-                    <h4>Bitfarmfxt</h4>
+                    <h4>Velmolt</h4>
                     <p>
-                        Bitfarmfxt is an investment management company. We are run by a team of
+                        Velmolt is an investment management company. We are run by a team of
                         trading experts who generate profits by buying and selling currencies, stocks,
                         options, cryptocurrencies, and fiat currencies. We employ a variety of
                         trading techniques to achieve the set-out goals for our client.
@@ -103,7 +103,7 @@
                             <div class="histo__text pl40 pr40">
                                 <h3 class="mb30">About Our Company &nbsp;&nbsp; <i class="ti-server"></i></h3>
                                 <p class="">
-                                    Bitfarmfxt was founded at the end of 2015. After almost 2 years of development, Bitfarmfxt was officially launched in 2017 and since then has consistently taken measures to ensure its platform makes online trading and investing accessible and profitable to both corporate and individual investors. By focusing on ease of access to beginners and improving upon important more complex trading technologies for more experienced investors, Bitfarmfxt has solidified itself as one of the world’s leading financial trading platforms. 
+                                    Velmolt was founded at the end of 2015. After almost 2 years of development, Velmolt was officially launched in 2017 and since then has consistently taken measures to ensure its platform makes online trading and investing accessible and profitable to both corporate and individual investors. By focusing on ease of access to beginners and improving upon important more complex trading technologies for more experienced investors, Velmolt has solidified itself as one of the world’s leading financial trading platforms. 
                                 </p>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
                     <div class="abouthead mb50">
                         <div class="abouthead__heading">
                             <p class="mb15">ROADMAP</p>
-                            <h4 class="mb30" style="font-family: 'dosis'">Our Recent <span style="color: #9be547">Roadmap</span></h4>
+                            <h4 class="mb30" style="font-family: 'dosis'">Our Recent <span style="color: #e5ae47">Roadmap</span></h4>
                             <hr class="center-mag">
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                     <!--        </div>-->
                     <!--        <div class="col-lg-7 col-md-7 col-sm-12">-->
                     <!--            <p class="roadmap__exp">-->
-                    <!--                Development of the Bitfarmfxt app for Android and iOS devices begins. Our next generation mobile cryptocurrency and Forex trading application is projected to be on the market by the end of 2020. Our clients who registered in 2017 are currently testing the beta version of this application on their devices and working with us to develop the optimal mobile asset trading app.  -->
+                    <!--                Development of the Velmolt app for Android and iOS devices begins. Our next generation mobile cryptocurrency and Forex trading application is projected to be on the market by the end of 2020. Our clients who registered in 2017 are currently testing the beta version of this application on their devices and working with us to develop the optimal mobile asset trading app.  -->
                     <!--            </p>-->
                     <!--        </div>-->
                     <!--    </div>-->
@@ -158,7 +158,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-12">
-                                <h6 class="roadmap__date">05 2020</h6>
+                                <h6 class="roadmap__date">05 2018</h6>
                             </div>
                             <div class="col-lg-2 col-md-2 col-sm-12">
                                 <div class="roadmap__drop"></div>
@@ -178,14 +178,14 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-12">
-                                <h6 class="roadmap__date">10 2018</h6>
+                                <h6 class="roadmap__date">10 2017</h6>
                             </div>
                             <div class="col-lg-2 col-md-2 col-sm-12">
                                 <div class="roadmap__drop"></div>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-12">
                                 <p class="roadmap__exp">
-                                    The Bitfarmfxt website platform is launched, officially marking the beginning of an unparalleled globally connected trading and investment platform. Early registration for the beta testing of our mobile application begins.  
+                                    The Velmolt website platform is launched, officially marking the beginning of an unparalleled globally connected trading and investment platform. Early registration for the beta testing of our mobile application begins.  
 
                                 </p>
                             </div>
@@ -203,7 +203,7 @@
     <!--                <p class="mb15 kaito">OUR AMAZING</p>-->
     <!--                <h4 class="mb30"-->
     <!--                style="font-family: 'montserrat'; letter-spacing: 0; font-weight: 600"-->
-    <!--                >Team of <span style="color: #9be547">Experts</span></h4>-->
+    <!--                >Team of <span style="color: #e5ae47">Experts</span></h4>-->
     <!--                <hr class="center-mag">-->
     <!--            </div>-->
     <!--        </div>-->
@@ -223,7 +223,7 @@
 
     <!--                            <div class="team__main__explain">-->
     <!--                                <p>-->
-    <!--                                    Bruce was elected chief financial officer for Bitfarmfxt after having previously worked in several-->
+    <!--                                    Bruce was elected chief financial officer for Velmolt after having previously worked in several-->
     <!--                                    leadership roles at the company since its founding. He has over 10 years experience investing in legacy markets, and 5 years of experience investing in various cryptocurrencies. His favorite cryptocurrency since he started investing in the field has been Ethereum. -->
 
     <!--                                </p>-->
@@ -243,7 +243,7 @@
 
     <!--                            <div class="team__main__explain">-->
     <!--                                <p>-->
-    <!--                                    Among notable Forex traders, Ricardo has been one of the most sought out in the past two years and we are thrilled to have him as part of our team here at Bitfarmfxt. His unique strategies have helped in the development of our Forex AI trading bot. His favorite Forex trading pair is EUR/USD. -->
+    <!--                                    Among notable Forex traders, Ricardo has been one of the most sought out in the past two years and we are thrilled to have him as part of our team here at Velmolt. His unique strategies have helped in the development of our Forex AI trading bot. His favorite Forex trading pair is EUR/USD. -->
 
     <!--                                </p>-->
     <!--                            </div>-->
@@ -261,7 +261,7 @@
 
     <!--                            <div class="team__main__explain">-->
     <!--                                <p>-->
-    <!--                                        Emily is an expert in financial policy and is a decisive decision maker. Aside from ensuring we are working in line with various financial regulations, she is the development lead for many of the projects currently in the works at Bitfarmfxt, such as our upcoming mobile application due for release in Q4 of 2020. Emily is a fan of cryptocurrency altcoins with potential institutional adoption and partnerships such as Chainlink and Theta.-->
+    <!--                                        Emily is an expert in financial policy and is a decisive decision maker. Aside from ensuring we are working in line with various financial regulations, she is the development lead for many of the projects currently in the works at Velmolt, such as our upcoming mobile application due for release in Q4 of 2020. Emily is a fan of cryptocurrency altcoins with potential institutional adoption and partnerships such as Chainlink and Theta.-->
                                         <!--&nbsp;&nbsp; <i class="ti-instagram"></i>-->
     <!--                                </p>-->
     <!--                            </div>-->
@@ -334,7 +334,7 @@
                                 <h3 class="m0">easy payout</h3>
                                 <div class="explain__seperator"></div>
                                 <p>
-                                    Most investment firms, cryptocurrency exchanges, and Forex services have extremely elaborate and complicated payouts. At Bitfarmfxt, we believe that getting your money back should be just as easy as putting it in. As such, we have developed a secure protocol which allows you to receive payments back to your cryptocurrency wallet or any international bank of your choice using a secure link portal. We charge no fees for withdrawals nor deposits – we make our profits from the extra percentage points we earn from your investments. 
+                                    Most investment firms, cryptocurrency exchanges, and Forex services have extremely elaborate and complicated payouts. At Velmolt, we believe that getting your money back should be just as easy as putting it in. As such, we have developed a secure protocol which allows you to receive payments back to your cryptocurrency wallet or any international bank of your choice using a secure link portal. We charge no fees for withdrawals nor deposits – we make our profits from the extra percentage points we earn from your investments. 
                                 </p>
                             </div>
                         </div>
@@ -350,7 +350,7 @@
                                 <h3 class="m0">Guaranteed profit</h3>
                                 <div class="explain__seperator"></div>
                                 <p>
-                                    Bitfarmfxt been run by a team of trading experts and an AI enhanced trading bot which adapts to market forces. In the timeframes we offer, profit is guaranteed. This may seem hard to believe, but our team is always looking to leverage existing and emerging cryptocurrencies, some of which can increase by over 30% in a single day, even in bear markets! Market projections cannot predict the future, but there is always a cryptocurrency project that is up and coming. That is how we are able to guarantee such stable and profitable returns. 
+                                    Velmolt been run by a team of trading experts and an AI enhanced trading bot which adapts to market forces. In the timeframes we offer, profit is guaranteed. This may seem hard to believe, but our team is always looking to leverage existing and emerging cryptocurrencies, some of which can increase by over 30% in a single day, even in bear markets! Market projections cannot predict the future, but there is always a cryptocurrency project that is up and coming. That is how we are able to guarantee such stable and profitable returns. 
 
                                 </p>
                             </div>
@@ -371,7 +371,7 @@
                 <div class="row steps">
                     <div class="col-md-4">
                         <div class="process__circle pull-left">1</div>
-                        <p class="process__text">Sign up for a Bitfarmfxt account.</p>
+                        <p class="process__text">Sign up for a Velmolt account.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="process__circle pull-left">2</div>
@@ -387,7 +387,7 @@
                         <a class="btn__normal coloured roll--text aos-init aos-animate" data-aos="fade-in" data-aos-delay="3000" data-text="get started"
                         
                         
-                              href="{{route('login')}}"
+                              href="login.html"
                         
                         
                         >&nbsp;&nbsp;&nbsp; Get started &nbsp;&nbsp;&nbsp;</a>
@@ -403,7 +403,7 @@
 <!-- Custom js -->
 </body>
 
-<!-- Mirrored from www.Bitfarmfxt.org/about by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:20 GMT -->
+<!-- Mirrored from www.velmolt.com/about by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:44:20 GMT -->
 </html>
 <script src="{{url('/')}}/asset/clone/java/typed.js"></script>
 <script type="text/javascript" src="{{url('/')}}/asset/clone/java/jquery.backstretch.min.js"></script>

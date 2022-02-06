@@ -71,7 +71,7 @@
                                             <div class="basic__break"></div>
                                             <p>
                                                 Don’t worry – you’re not going to get a ridiculously long phone menu when you call us. At
-                                                Bitfarmfxt you always talk to a human! Note that waiting times may vary. Give us a call and be patient, we will be with you as soon as we can.
+                                                Velmolt you always talk to a human! Note that waiting times may vary. Give us a call and be patient, we will be with you as soon as we can.
 
                                             </p> 
                                         </div>
@@ -389,7 +389,7 @@
         </div>
     </section>
 
-    {{-- <section class="pt50">
+    <section class="pt50">
         <div class="row">
             <div class="col-md-6 p0">
                 <div class="pt100 pb100 locate" data-aos="fade-right" data-aos-duration="1900">
@@ -416,18 +416,18 @@
                         <div class="locate__text text-center">
                             <p>company address</p>
                             
-                            <p>1166 6th Ave, New York, NY 10036, United States</p>
+                            <p>{{$set->address}}</p>
                             <!--<p>56 Elizabeth St belgravia, London. United kingdom</p>-->
                         </div>
 
                         <div class="locate__text text-center">
                             <p>support email</p>
-                            <p>support@Bitfarmfxt.org</p>
+                            <p>{{$set->email}}</p>
                         </div>
 
                         <div class="locate__text text-center">
                             <p>company phone</p>
-                            <p>+1 917-985-7247, +1 917 900 3056</p>
+                            <p>{{$set->mobile}}</p>
                         </div>
 
                     </div>
@@ -440,7 +440,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 </main>
 
 @stop

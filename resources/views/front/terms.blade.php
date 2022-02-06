@@ -16,9 +16,9 @@
                     <div class="widthper mt40">
                         <div class="row justify-content-center">
                             <div class="col-lg-8 text-center">
-                                <h4 class="mb25"> <span id="laito">Bitfarmfxt terms and conditions</h4>
-                                <p>This is a legal agreement between Bitfarmfxt, Inc. (“Bitfarmfxt”, “us”, or “we”) and the entity or person (“you”, “your”, or “user”)
-                                who registered on the Bitfarmfxt Account page.</p>
+                                <h4 class="mb25"> <span id="laito">Velmolt terms and conditions</h4>
+                                <p>This is a legal agreement between Velmolt, Inc. (“Velmolt”, “us”, or “we”) and the entity or person (“you”, “your”, or “user”)
+                                who registered on the Velmolt Account page.</p>
 
                                 
                                 <!-- <div id="abt-btn-first" >
@@ -43,23 +43,23 @@
                 <div class="col-lg-12">
                     <div class="terms">
                         <div class="terms__heading">
-                            <p class="mb30">
-                                <a href="{{url('/')}}/asset/clone/files/Bitfarmfxt-legal-ver101.pdf" download="Bitfarmfxt Terms & condition">Download Terms & Conditions PDF &nbsp;&nbsp; <i class="ti-save"></i></a>
-                            </p>
-                            <h3 class="mb10">Bitfarmfxt Services User Agreement</h3>
+                            {{-- <p class="mb30">
+                                <a href="{{url('/')}}/asset/clone/files/velmolt-legal-ver101.pdf" download="Velmolt Terms & condition">Download Terms & Conditions PDF &nbsp;&nbsp; <i class="ti-save"></i></a>
+                            </p> --}}
+                            <h3 class="mb10">Velmolt Services User Agreement</h3>
                             <p>
-                                Last Updated: November 9 2018.
+                                Last Updated: November 9 2021.
                             </p>
                         </div>
 
                         <hr class="mt30 mb30">
 
                         <div class="terms__body pb100">
-                            <p class="p0">Welcome to Bitfarmfxt!</p>
+                            <p class="p0">Welcome to Velmolt!</p>
                             <p>
-                                This Bitfarmfxt Services Agreement (“Agreement”) is a legal agreement between Bitfarmfxt, Inc. (“Bitfarmfxt”, “us”, or
-                                “we”) and the entity or person (“you”, “your”, or “user”) who registered on the Bitfarmfxt Account page to receive
-                                certain Investment and Trading services, and other business services that may be offered by Bitfarmfxt and its
+                                This Velmolt Services Agreement (“Agreement”) is a legal agreement between Velmolt, Inc. (“Velmolt”, “us”, or
+                                “we”) and the entity or person (“you”, “your”, or “user”) who registered on the Velmolt Account page to receive
+                                certain Investment and Trading services, and other business services that may be offered by Velmolt and its
                                 affiliates (each, a “Service”). This Agreement describes the terms and conditions that apply to your use of the
                                 Services.
                             </p>
@@ -91,13 +91,13 @@
                                 Representative must be your parent or legal guardian. If you are a legal entity that is owned, directly or indirectly,
                                 by an individual who is not at least 18 years old, but the individual is 16 years old or older, your Representative
                                 must either obtain the consent of your board or of an authorized officer. Any such approving board, authorized officer,
-                                parent, or legal guardian is responsible to Bitfarmfxt and is legally bound to this Agreement as if it had agreed to
+                                parent, or legal guardian is responsible to Velmolt and is legally bound to this Agreement as if it had agreed to
                                 the terms of this Agreement itself. **You may not use the Services if you are under 16 years of age. **
                             </p>
                             <p><i>Modification.</i></p>
                             <p>
                                 We may change the terms of this User Agreement at any time. Any such changes will take effect when posted on the
-                                Bitfarmfxt website, or when you use the Services. If you have supplied us with an email address, we will also attempt
+                                Velmolt website, or when you use the Services. If you have supplied us with an email address, we will also attempt
                                 to notify you by email of changes to this User Agreement.
                             </p>
                             <p>
@@ -106,24 +106,24 @@
                                 enforcing any provision of this User Agreement shall not be construed as a waiver of any.
                             </p>
 
-                            <h4>Bitfarmfxt USER ACCOUNT</h4>
+                            <h4>Velmolt USER ACCOUNT</h4>
 
                             <p>
                                 You agree and understand that you are solely responsible for managing and maintaining the security of any information
-                                relating to your login credentials and agree that Bitfarmfxt will not be held responsible (and you will not hold us
+                                relating to your login credentials and agree that Velmolt will not be held responsible (and you will not hold us
                                 responsible) for any unauthorized access to the Services or any resulting harm you may suffer.
                             </p>
                             <p>
-                                You agree that you will not permit access to your login credentials to any other party and will not hold Bitfarmfxt
+                                You agree that you will not permit access to your login credentials to any other party and will not hold Velmolt
                                 responsible for any actions taken by individuals unauthorized to access your User Account.
                             </p>
 
-                            <h4>Bitfarmfxt TRANSACTION</h4>
+                            <h4>Velmolt TRANSACTION</h4>
 
                             <p>
-                                You expressly agree and understand that Bitfarmfxt will not be held responsible ("and you will not hold us
+                                You expressly agree and understand that Velmolt will not be held responsible ("and you will not hold us
                                 responsible") for any transaction performed outside our website provided platform, this includes any payment made to
-                                any individual, Broker or platform not provided by Bitfarmfxt. This solely indicates that you will not hold us
+                                any individual, Broker or platform not provided by Velmolt. This solely indicates that you will not hold us
                                 responsible for <b>ANY</b> transaction performed outside our website platform. All transactions should only be carried out
                                 using our online website platform.
                             </p>
@@ -132,9 +132,9 @@
                             
                             <p>
                                 In view of the nature of the service, you agree that any initiated Investment or Trade
-                                - once confirmed by the Company (Bitfarmfxt) - is not cancellable. In this you expressly
+                                - once confirmed by the Company (Velmolt) - is not cancellable. In this you expressly
                                 agree and certify that your invested Capital will not be made available to you (the investor) until the
-                                end of your Investment or Trade with Bitfarmfxt.
+                                end of your Investment or Trade with Velmolt.
                             </p>
                             
                             <p>
@@ -155,7 +155,7 @@
                             </p>
                             <p>
                                 All content present on the Site includes text, code, graphics, logos, images, compilation, software used on the Site
-                                (hereinafter and hereinbefore the ``Content``). The Content is the property of Bitfarmfxt or its contractors and
+                                (hereinafter and hereinbefore the ``Content``). The Content is the property of Velmolt or its contractors and
                                 protected by intellectual property laws that protect such rights. You agree to use all copyright and other proprietary
                                 notices or restrictions contained in the Content and you are prohibited from changing the Content.
                             </p>
@@ -172,28 +172,28 @@
                             <h4>FEEDBACK, COMPLAINTS, AND DISPUTE RESOLUTION</h4>
 
                             <p>
-                                Bitfarmfxt strives to improve its Services to address feedback. If you have ideas or suggestions regarding improvements
+                                Velmolt strives to improve its Services to address feedback. If you have ideas or suggestions regarding improvements
                                 or additions to the Services, we would like to hear them; however, any submission will be subject to this User
                                 Agreement.
                             </p>
                             <p>
-                                Under no circumstances will disclosure of any idea or feedback, or any related material to Bitfarmfxt be subject to any
+                                Under no circumstances will disclosure of any idea or feedback, or any related material to Velmolt be subject to any
                                 obligation of confidentiality or expectation of compensation.
                             </p>
                             <p>
                                 By submitting an idea or feedback or any related material that would be subject to intellectual property rights (the
-                                “Work”) to Bitfarmfxt, you grant to Bitfarmfxt, with respect to the Work submitted, a non-exclusive, perpetual, global,
+                                “Work”) to Velmolt, you grant to Velmolt, with respect to the Work submitted, a non-exclusive, perpetual, global,
                                 royalty-free license to use all of the content of such ideas and feedback, for any purpose whatsoever.
                             </p>
                             <p>
                                 Furthermore, by submitting any such idea or feedback, you are waiving any moral rights to the fullest extent permitted
-                                under law that you may have in the Work and are representing and warranting to Bitfarmfxt that the Work originated with
-                                you, no one else has any rights in the Work, and that Bitfarmfxt is free of any royalty to implement the Work and to
-                                use the related material if so desired, as provided or modified by Bitfarmfxt, without obtaining permission or license
+                                under law that you may have in the Work and are representing and warranting to Velmolt that the Work originated with
+                                you, no one else has any rights in the Work, and that Velmolt is free of any royalty to implement the Work and to
+                                use the related material if so desired, as provided or modified by Velmolt, without obtaining permission or license
                                 from any third party.
                             </p>
                             <p>
-                                You further accept that Bitfarmfxt may sub-license in any way all Work and material you have submitted to Bitfarmfxt.
+                                You further accept that Velmolt may sub-license in any way all Work and material you have submitted to Velmolt.
                             </p>
                             <p><i>Disputes.</i></p>
                             <p>
@@ -222,7 +222,7 @@
                             </p>
 
                             <p>
-                                &doteqdot; &nbsp; When you register for a Bitfarmfxt account we collect your full name, email address, and account log-in credentials
+                                &doteqdot; &nbsp; When you register for a Velmolt account we collect your full name, email address, and account log-in credentials
                                 (Excluding your password, since it would be encrypted upon registration).
                             </p>
                             <p>
@@ -231,13 +231,13 @@
                             </p>
 
                             <p>
-                                When you respond to Bitfarmfxt emails or surveys we collect your email address, name and any other information you
+                                When you respond to Velmolt emails or surveys we collect your email address, name and any other information you
                                 choose to include in the body of your email or responses. If you contact us by phone, we will collect the phone number
-                                you use to call Bitfarmfxt. If you contact us by phone as a Bitfarmfxt User, we may collect additional information in
+                                you use to call Velmolt. If you contact us by phone as a Velmolt User, we may collect additional information in
                                 order to verify your identity.
                             </p>
                             <p>
-                                If you are a Bitfarmfxt User, you will provide your contact details, such as name, postal address, telephone number,
+                                If you are a Velmolt User, you will provide your contact details, such as name, postal address, telephone number,
                                 and email address. As part of your business relationship with us, we may also receive financial and personal
                                 information about you, such as your date of birth and government identifiers associated with you or your organization
                                 (such as your social security number, tax number, or Employer Identification Number).
@@ -248,16 +248,16 @@
                             </h4>
 
                             <p>
-                                You agree and understand that Bitfarmfxt reserves the right, in our sole discretion, to immediately suspend, freeze, or
+                                You agree and understand that Velmolt reserves the right, in our sole discretion, to immediately suspend, freeze, or
                                 terminate your User Account or any Service in the event that you are suspected of having violated any provision of this
                                 User Agreement, believed to be in violation of Applicable Law, or are believed to be involved in activities or conduct
-                                detrimental to Bitfarmfxt.
+                                detrimental to Velmolt.
                             </p>
 
                             <h4>DISCLAIMER OF CERTAIN LIABILITIES</h4>
 
                             <p>
-                                The information available via the Bitfarmfxt Site may include typographical errors or inaccuracies. The Company shall
+                                The information available via the Velmolt Site may include typographical errors or inaccuracies. The Company shall
                                 not be liable for these inaccuracies and errors.
                             </p>
                             <p>
@@ -282,8 +282,8 @@
                             <h4>CONTACT US</h4>
 
                             <p>
-                                If You have any questions or complaints about this Terms and Conditions and our Privacy Policy, You may <a href="../contact.html">contact us</a> or by writing to
-                                <a href="mailto:support@Bitfarmfxt.org">support@Bitfarmfxt.org</a>
+                                If You have any questions or complaints about this Terms and Conditions and our Privacy Policy, You may <a href="../{{route('contact')}}">contact us</a> or by writing to
+                                <a href="mailto:support@velmolt.com">support@velmolt.com</a>
                             </p>
 
                         </div>
@@ -359,7 +359,7 @@ s0.parentNode.insertBefore(s1,s0);
 <!-- Custom js -->
 </body>
 
-<!-- Mirrored from www.Bitfarmfxt.org/legal/terms by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:45:21 GMT -->
+<!-- Mirrored from www.velmolt.com/legal/terms by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 10:45:21 GMT -->
 </html>
 
 <script src="{{url('/')}}/asset/clone/java/terms.js"></script>

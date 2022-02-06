@@ -5,14 +5,14 @@
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
-    <meta name="description" content="Take a step today by joining us here at Bitfarmfxt and get started on our investment platform, already registered? login to your account dashboard">
-    <meta name="keywords" content="crytpo, cryptocurrency, forex, bitcoin, investment, ethereum, litecoin, Bitfarmfxt, crypto-investment">
-    <meta name="author" content="Bitfarmfxt company developer">
+    <meta name="description" content="Take a step today by joining us here at velmolt and get started on our investment platform, already registered? login to your account dashboard">
+    <meta name="keywords" content="crytpo, cryptocurrency, forex, bitcoin, investment, ethereum, litecoin, velmolt, crypto-investment">
+    <meta name="author" content="velmolt company developer">
     <meta name="identifier-url" content="index.html">
-    <meta name="contact" content="support@Bitfarmfxt.org">
+    <meta name="contact" content="support@velmolt.com">
     <meta name="robots" content="index, follow, all">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title> Bitfarmfxt | Authentication (Take a step today by joining us)</title>
+    <title> Velmolt | Authentication (Take a step today by joining us)</title>
     <link rel="icon" href="{{url('/')}}/asset/{{$logo->image_link2}}">
     <link rel="stylesheet" href="{{url('/')}}/asset/css/toast.css" type="text/css">
     <link href="{{url('/')}}/asset/clone/stylesheet/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
                         <div class="row align-items-center">
                             <div class="col-6 text-left">
                                 <div class="header__img">
-                                    <a href="{{route('home')}}"><img src="{{url('/')}}/asset/clone/img/shortlog.png" alt=""></a>
+                                    <a href="{{route('home')}}"><img src="{{url('/')}}/asset/{{$logo->image_link2}}" alt="Velmolt" width="150"></a>
                                 </div>
                             </div>
                             <div class="col-6 text-right">
@@ -171,7 +171,7 @@
     
                                     <div class="form-group__submit mb25">
                                         <div>
-                                            <a href="{{route('login')}}">Lost device ?</a>
+                                            <a href="login.html">Lost device ?</a>
                                         </div>
                                         <div class="text-right">
                                             <button class="btn__normal coloured roll--text" data-text="Authorize">Authorize</button>
@@ -186,7 +186,7 @@
                     <div class="footer">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                Email: support@Bitfarmfxt.org
+                                Email: support@velmolt.com
                             </div>
                             <div class="col-4 text-right">
                                 <i class="cc BTC"></i>
@@ -201,15 +201,15 @@
                     <div class="">
                         <div class="swiper-container">
                             <div class="swiper-wrapper swiper">
-                                {{-- <div class="swiper-slide bg-img">
+                                <div class="swiper-slide bg-img">
                                     <div class="overlay_dark" style="background-color: rgba(0,0,0,.1)"></div>
-                                </div> --}}
+                                </div>
                                 <div class="swiper-slide bg-img">
                                     <div class="overlay_dark" style="background-color: rgba(0,0,0,.3)"></div>
                                 </div>
-                                {{-- <div class="swiper-slide bg-img">
+                                <div class="swiper-slide bg-img">
                                     <div class="overlay_dark" style="background-color: rgba(0,0,0,.2)"></div>
-                                </div> --}}
+                                </div>
                             </div>
                             <div class="swiper__text">
                                 <div class="swiper__video mb40">
@@ -218,7 +218,7 @@
                                     </a>
                                 </div>
                                 <h4>Embrace Cryptocurrency</h4>
-                                <a class="socio-link" href="https://www.instagram.com/Bitfarmfxt.investments"><i class="ti-instagram"></i></a>
+                                <a class="socio-link" href="https://www.instagram.com/velmolt.investments"><i class="ti-instagram"></i></a>
                                 <a class="socio-link" href="https://www.youtube.com/"><i class="ti-youtube"></i></a>
                                 <!--<a class="socio-link" href="https://www.youtube.com/"><i class="ti-reddit"></i></a>-->
                             </div>
@@ -240,6 +240,7 @@
     <script src="{{url('/')}}/asset/clone/java/swiper.js"></script>
     <script src="{{url('/')}}/asset/clone/java/login.js"></script>
     <script src="{{url('/')}}/asset/js/toast.js"></script>
+
 </body>
 </html>
 @if (session('success'))
