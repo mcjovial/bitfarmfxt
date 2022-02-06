@@ -1,7 +1,7 @@
 @extends('loginlayout')
 
 @section('content')
-<div class="main-content" style="background-color: rgba(0,0,0,.1)">
+<div class="main-content">
     <!-- Header -->
     <div class="header py-5 pt-6">
       <div class="container">
@@ -14,9 +14,8 @@
       <div class="row justify-content-center">
         <div class="col-lg-7 col-md-7">
           <div class="card border-0 mb-0">
-            <div class="card-body px-lg-5 py-lg-5" >
+            <div class="card-body px-lg-5 py-lg-5">
               <div class="text-center text-dark mb-5">
-              <a href="{{route('home')}}"><img src="{{url('/')}}/asset/{{$logo->image_link}}" alt="Logo" width="200"></a> <br><br>
                 <h3 class="text-dark font-weight-bolder">{{ __('Sign Up') }}</h3>
                 <small>{{$set->title}}</small>
               </div>
@@ -25,7 +24,7 @@
                 <div class="form-group mb-3">
                   <div class="input-group">
                     <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="fad fa-briefcase text-success"></i></span>
+                      <span class="input-group-text"><i class="fad fa-briefcase text-future"></i></span>
                     </div>
                     <input class="form-control" placeholder="{{__('Username')}}" type="text" name="username" required>
                   </div>
@@ -39,7 +38,7 @@
                         <div class="col-6">
                           <div class="input-group">
                             <div class="input-group-prepend">
-                              <span class="input-group-text"><i class="fad fa-user text-success"></i></span>
+                              <span class="input-group-text"><i class="fad fa-user text-future"></i></span>
                             </div>
                             <input class="form-control" placeholder="{{__('First Name')}}" type="text" name="first_name" required>
                           </div>
@@ -47,7 +46,7 @@
                         <div class="col-6">
                           <div class="input-group">
                             <div class="input-group-prepend">
-                              <span class="input-group-text"><i class="fad fa-user text-success"></i></span>
+                              <span class="input-group-text"><i class="fad fa-user text-future"></i></span>
                             </div>
                             <input class="form-control" placeholder="{{__('Last Name')}}" type="text" name="last_name" required>
                           </div>
@@ -61,7 +60,7 @@
                     <div class="form-group mb-3">
                       <div class="input-group">
                         <div class="input-group-prepend">
-                          <span class="input-group-text"><i class="fad fa-envelope text-success"></i></span>
+                          <span class="input-group-text"><i class="fad fa-envelope text-future"></i></span>
                         </div>
                         <input class="form-control" placeholder="{{ __('Email')}}" type="email" name="email" required>
                       </div>
@@ -87,7 +86,7 @@
                 <div class="form-group">
                   <div class="input-group">
                     <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="fad fa-unlock text-success"></i></span>
+                      <span class="input-group-text"><i class="fad fa-unlock text-future"></i></span>
                     </div>
                     <input class="form-control" id="new_password" placeholder="{{ __('Password')}}" type="password" name="password" required>
                   </div>
@@ -100,21 +99,22 @@
                   </label>
                 </div>
                 @if($set->recaptcha==1)
-                    {!! app('captcha')->display() !!}
-                    @if ($errors->has('g-recaptcha-response'))
-                        <span class="help-block">
-                            {{ $errors->first('g-recaptcha-response') }}
-                        </span>
-                    @endif
+                  {!! app('captcha')->display() !!}
+                  @if ($errors->has('g-recaptcha-response'))
+                      <span class="help-block">
+                          {{ $errors->first('g-recaptcha-response') }}
+                      </span>
+                  @endif
                 @endif
                 <div class="text-center">
-                  <button type="submit"  class="btn btn-default btn-block my-4 text-uppercase text-success"  id="update_password">{{__('Create an Account')}}</button>
+                  <button type="submit" class="btn btn-neutral btn-block my-4 text-uppercase"  id="update_password">{{__('Create an Account')}}</button>
                   <div class="loginSignUpSeparator"><span class="textInSeparator">or</span></div>
-                  <a href="{{route('login')}}" class="btn btn-success btn-block my-0 text-uppercase">{{__('Got an Account?')}}</a>
+                  <a href="{{route('login')}}" class="btn btn-primary btn-block my-0 text-uppercase">{{__('Got an Account?')}}</a>
                 </div>
               </form>
             </div>
           </div>
+
         </div>
       </div>
     </div>
